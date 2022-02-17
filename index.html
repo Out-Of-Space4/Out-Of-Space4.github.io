@@ -7,10 +7,10 @@
     <body>
  
     <style>
-     .info {
-                background: rgb(219, 235, 255);
-                width:70%;
-                height:200px;
+     #info {
+                background: rgb(171, 144, 161);
+                width:61%;
+                height: 173px;
                 overflow:auto;
             }
             .pic{
@@ -19,18 +19,18 @@
          
         
         h1{
-            background:rgb(134, 138, 204);
-            font-family:fantasy;
+            background:rgb(171, 130, 204);
+            font-family: monospace;
             color:rgb(0, 13, 153);
             font-size:50px;
-            text-decoration:underline;
-           
+            border:10px ridge pink;
+          
         }
         body{
-            background:rgb(173, 132, 227);
+            background:rgb(162, 150, 179);
         }
         h2{
-            background:rgb(182, 151, 199);
+            background:rgb(158, 124, 179);
         }
         
         
@@ -38,15 +38,24 @@
     
         <h1 >Out  Of  Space 
         </h1>
-        <p> Hello everyone! I'm very excited that you are thinking about traveling with us! <strong><em>Out of Space</em></strong> was originally launched by Poonam Dhillon. You may know her from </p>
+        <p>Jump to these sections by clicking:</p>
+      
+    
+          
+     <ul>
+            <li><a href="#mars">Mars</a></li>
+       </ul>
+   
+        <p> Hello everyone! I'm very excited that you are thinking about traveling with us! <strong><em>Out of Space</em></strong> was originally launched by Poonam Dhillon.  </p>
         
         
-       <h2>Mars</h2>
-         <img src="data:image/jpeg;base64,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" width="400">
+       <h2 id = "mars">Mars</h2>
+     
        
      
   
-     <p></p>
+     <p id = "info">Are you thinking about planning a trip to Mars? <br> Well you've come to the right place! Mars is the<br> the 4th planet from the sun. It also about 224.32<br> km away from the sun. It is <strong> very </strong>cold you so you <br>might wanna a bring a few jackets to keep you <br>warm. Mars is made up of nickel, iron, and <br>sulphur. If you do go to Mars you might wanna<br> keep a look out for these 2 moons named Deimos <br> and Phobos. If you're courageous you can even<br> stay <strong>1 whole year</strong> on Mars which is about 687 earth days. If you're not feeling too sure about traveling to Mars you can take the free trial of 1 week and we will still provide everyday necessities such as food, water, safety, a suit which has all the oxygen you will need for your trip so you can enjoy your trip with no worries whatsoever
+     </p>
          
    
      <a href="https://en.wikipedia.org/wiki/Mars"> Wikipedia page about Mars</a>
